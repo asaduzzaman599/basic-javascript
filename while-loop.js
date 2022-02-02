@@ -1,4 +1,4 @@
-// Find out all of the ODD number in between 7 TO 35 divisible by 3 and 5
+// Find out all of the ODD number in between 7 TO 35 divisible by 3 or 5
 
 const startNumber = 7;          
 const endNumber = 35;
