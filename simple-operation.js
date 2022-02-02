@@ -6,7 +6,7 @@ let b = 5;
 
 let result = 0;
 
-//Addition   '+'
+//Addition   '+'                                    //output
 result = a + b;                                 
 console.log("Resule: 12 + 5 =", result)             //Resule: 12 + 5 = 17
 
