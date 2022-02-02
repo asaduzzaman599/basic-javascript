@@ -17,7 +17,7 @@ let examMark = "50";
 
 
 if(!(examMark <= 100 && examMark >= 0) || typeof examMark != "number"){ // for let examMark = more then 100/ less then 0/ string/ invalid input
-     console.log("Invalid Input");                                      //Invalid Input
+     console.log("Invalid Input");                                      //output :Invalid Input
 }
 else if(examMark <= 100 && examMark >= 90){        // for let examMark = 90 - 100
     console.log("A+");                             //output : A+
@@ -59,15 +59,15 @@ let light = 'grEEn';
 light = light.toLowerCase();
 
 if( light == 'red' || light == 'green' || light == 'yellow'){    //let light = red/Red/RED/yellow/Yellow/YELLOW/green/Green/Green  condition: true
-    if( light == 'red'){           //let light = red/Red//RED  condition: true
-        console.log("Stop");       //output : Stop
+    if( light == 'red'){                //let light = red/Red//RED  condition: true
+        console.log("Stop");            //output : Stop
     }
-    else if( light == 'yellow'){  //let light = yellow/Yellow/YELLOW  condition: true
-        console.log("Wait");      //output : Wait
+    else if( light == 'yellow'){        //let light = yellow/Yellow/YELLOW  condition: true
+        console.log("Wait");            //output : Wait
     }
-    else{                          //let light = green/Green/GREEN  
-        console.log("Go");         //output : Go
+    else{                               //let light = green/Green/GREEN  
+        console.log("Go");              //output : Go
     }
-}else{                             // let light = invalid input
-    console.log("Invalid Input");  //output : Invalid Input
+}else{                                  // let light = invalid input
+    console.log("Invalid Input");       //output : Invalid Input
 }
